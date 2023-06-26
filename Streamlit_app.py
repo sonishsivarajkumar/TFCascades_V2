@@ -123,7 +123,7 @@ if st.sidebar.button(":bar_chart: EDA", use_container_width=True):
     st.markdown("""
     ## EDA Report 
     """)
-    st.components.v1.iframe("https://sonishsivarajkumar.github.io/TFCascades/")
+    st.components.v1.iframe("https://sonishsivarajkumar.github.io/TFCascades/", width=None, height=600, scrolling=True)
 
 
 # Display visualization tab
