@@ -175,4 +175,4 @@ if st.sidebar.button(":floppy_disk: Download", use_container_width=True):
     mime='text/csv',
 )
 
-st.sidebar.text('Last updated at 23:50 on 2023-06-25')
+st.sidebar.text('Last updated at 00:50 on 2023-06-26')
