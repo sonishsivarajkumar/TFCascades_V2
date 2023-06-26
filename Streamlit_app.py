@@ -33,6 +33,27 @@ with open("./KL_logo.jpg", "rb") as f:
 
 st.sidebar.markdown("")
 
+
+st.image(image="./image1.png", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+
+    # Display abstract
+st.markdown("""
+    ## Abstract
+
+    Transcription factors (TFs) play a vital role in the regulation of gene expression, making them critical to many cellular processes. In this study, we created a compendium of TF cascades using data extracted from the STRING database, resulting in a total of 81,488 unique TF cascades, with the longest cascade consisting of 62 TFs. Our results highlight the complex and intricate nature of TF interactions, with multiple TFs working together to regulate gene expression. We also identified 10 TFs with the highest regulatory influence based on centrality measurements, providing valuable information for researchers interested in studying specific TFs. Furthermore, our pathway enrichment analysis revealed significant enrichment of various pathways and functional categories, including those involved in cancer and other diseases, as well as development, differentiation, and cell signaling. The enriched pathways identified in this study may have potential as targets for therapeutic intervention in diseases associated with dysregulation of transcription factors. We have released the dataset, knowledge graph, and graphML methods for the TF cascades, and created a website to display the results, which can be accessed by researchers interested in using this dataset. Our study provides a valuable resource for researchers interested in understanding the complex network of interactions between TFs and their regulatory roles in cellular processes.
+    
+    - :point_right: Read our paper here:  https://www.biorxiv.org/content/...
+    """)
+
+
+    # Display links to dataset and website
+st.markdown("""
+    ## Links
+
+    - [Dataset](https://github.com/TFcascades/TFcascades)
+    - [Website](https://tfcascades.github.io/)
+    """)
+
 # Display introduction tab
 if st.sidebar.button(":house: Home", use_container_width=True,type="secondary"):
 
