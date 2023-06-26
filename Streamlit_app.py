@@ -116,6 +116,16 @@ if st.sidebar.button(":mag_right: Dataset Viewer", use_container_width=True):
     # Display graph using agraph function
     agraph(nodes=nodes, edges=edges, config=config)
 
+
+# Display visualization tab
+if st.sidebar.button(":mag_right: EDA", use_container_width=True): 
+    # Display metadata
+    st.markdown("""
+    ## EDA Report 
+    """)
+    st.components.v1.iframe("./index.html")
+
+
 # Display visualization tab
 if st.sidebar.button(":spiral_note_pad: Docs", use_container_width=True):
     # Display metadata
@@ -156,4 +166,5 @@ if st.sidebar.button(":floppy_disk: Download", use_container_width=True):
     mime='text/csv',
 )
 
-st.sidebar.text('Last updated at 00:50 on 2023-06-26')
+st.sidebar.text('Last updated at 01:20 on 2023-06-26')
+
