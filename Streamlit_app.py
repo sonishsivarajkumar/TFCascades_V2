@@ -67,7 +67,7 @@ if st.sidebar.button(":mag_right: Dataset Viewer", use_container_width=True):
     row_numbers = list(range(1, 81488))
 
     # Read csv file into dataframe
-    df = pd.read_csv("../Data/TFChains_reindexed.csv")
+    df = pd.read_csv("./Data/TFChains_reindexed.csv")
 
     # Display original dataframe
     st.dataframe(df)
