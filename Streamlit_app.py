@@ -118,12 +118,12 @@ if st.sidebar.button(":mag_right: Dataset Viewer", use_container_width=True):
 
 
 # Display visualization tab
-if st.sidebar.button(":mag_right: EDA", use_container_width=True): 
+if st.sidebar.button(":bar_chart: EDA", use_container_width=True): 
     # Display metadata
     st.markdown("""
     ## EDA Report 
     """)
-    st.components.v1.iframe("./index.html")
+    st.components.v1.iframe("https://sonishsivarajkumar.github.io/TFCascades/")
 
 
 # Display visualization tab
@@ -132,8 +132,8 @@ if st.sidebar.button(":spiral_note_pad: Docs", use_container_width=True):
     st.markdown("""
     ## Download Links
 
-    - [Dataset](https://github.com/TFcascades/TFcascades)
-    - [Website](https://tfcascades.github.io/)
+    - [Dataset](https://github.com/sonishsivarajkumar/TFCascades)
+    - [Website](https://tfcascades.streamlit.app/)
     """)
 
     st.markdown("""
@@ -155,8 +155,8 @@ if st.sidebar.button(":floppy_disk: Download", use_container_width=True):
     st.markdown("""
     ## Download Links
 
-    - [Dataset](https://github.com/TFcascades/TFcascades)
-    - [Website](https://tfcascades.github.io/)
+    - [Dataset](https://github.com/sonishsivarajkumar/TFCascadess)
+    - [Website](https://tfcascades.streamlit.app/)
     """)
 
     st.download_button(
@@ -166,5 +166,5 @@ if st.sidebar.button(":floppy_disk: Download", use_container_width=True):
     mime='text/csv',
 )
 
-st.sidebar.text('Last updated at 01:20 on 2023-06-26')
+st.sidebar.text('Last updated at 01:30 on 2023-06-26')
 
